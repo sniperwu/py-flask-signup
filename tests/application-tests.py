@@ -23,6 +23,7 @@ from flask import Flask, current_app, request, Response
 class AppTestCase(unittest.TestCase):
 
     #application = Flask(__name__)
+    #test agian
 
     def setUp(self):
         application.testing = True
